@@ -41,7 +41,7 @@ This shows the basic paths of execution on the client. I didn't include some of 
 
 This shows the sequencing of the messages sent back and forth between the client/server. Interestingly, this is probably where the bulk of my project work fell. I wanted a protocol that was comprehensive enough to do more than just send/receive signals. I wanted it to be able to use any arbitrary command, so I kind of modeled it after some transmission protocols I was familiar with (tcp/ip for example), but tried to make it simple since I was short on time. Looking back, it probably needed something more robust as the synchronizing would have been difficult if a requirement for servicing multiple connections was required.
 
-![Communication Protocol Diagram](Communication%20Protocol%20Diagram.png)
+![Communication Protocol Diagram](Screenshots/Communication%20Protocol%20Diagram.png)
 
 ### Block Diagram
 
@@ -83,6 +83,6 @@ So I already had the issue with the data not being filtered and transmitted fast
 Screenshot of a test runnning the server/client on the same computer.
 
 
-![Server/Client](Screenshots/COEF100HZ-IN100HZ)
+![Server/Client](Screenshots/COEF100HZ-IN100HZ.png)
 
 Screenshot of the client receiving data from the server running the convolution filter on a 100 Hz input signal.
